@@ -1,5 +1,5 @@
-import { verticalScale } from '../../utils/scaling'
-import type { Coin, CoinPosition } from '../constants/types'
+import { verticalScale } from '../utils/scaling'
+import type { Coin, CoinPosition } from './types'
 
 const toArcPosition = (x: number, y: number): CoinPosition => ({
   x: verticalScale(x),
@@ -12,7 +12,7 @@ export const DEFAULT_COINS: readonly Coin[] = [
     name: 'Solana',
     symbol: 'SOL',
     glowColor: '#9945FF',
-    icon: require('../../assets/CoinImages/solana.png'),
+    icon: require('../assets/CoinImages/solana.png'),
     position: toArcPosition(-165, -150),
   },
   {
@@ -20,7 +20,7 @@ export const DEFAULT_COINS: readonly Coin[] = [
     name: 'Bitcoin',
     symbol: 'BTC',
     glowColor: '#F7931A',
-    icon: require('../../assets/CoinImages/btc.png'),
+    icon: require('../assets/CoinImages/btc.png'),
     position: toArcPosition(-35, -250),
   },
   {
@@ -28,7 +28,7 @@ export const DEFAULT_COINS: readonly Coin[] = [
     name: 'Ethereum',
     symbol: 'ETH',
     glowColor: '#627EEA',
-    icon: require('../../assets/CoinImages/eth.png'),
+    icon: require('../assets/CoinImages/eth.png'),
     position: toArcPosition(45, -215),
   },
   {
@@ -36,7 +36,7 @@ export const DEFAULT_COINS: readonly Coin[] = [
     name: 'Cardano',
     symbol: 'ADA',
     glowColor: '#0033AD',
-    icon: require('../../assets/CoinImages/ada.png'),
+    icon: require('../assets/CoinImages/ada.png'),
     position: toArcPosition(95, -150),
   },
   {
@@ -44,7 +44,7 @@ export const DEFAULT_COINS: readonly Coin[] = [
     name: 'BNB',
     symbol: 'BNB',
     glowColor: '#F3BA2F',
-    icon: require('../../assets/CoinImages/bnb.png'),
+    icon: require('../assets/CoinImages/bnb.png'),
     position: toArcPosition(-115, -215),
   },
 ]

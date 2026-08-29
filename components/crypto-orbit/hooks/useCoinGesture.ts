@@ -11,7 +11,7 @@ import {
   withTiming,
 } from 'react-native-reanimated'
 
-import { findNearestPointIndex } from '../../utils/geometry'
+import { findNearestPointIndex } from '../utils/geometry'
 import {
   BACKDROP_FADE_IN_MS,
   BACKDROP_FADE_OUT_MS,

@@ -8,7 +8,7 @@ import Animated, {
   withSpring,
 } from 'react-native-reanimated'
 
-import { verticalScale } from '../../utils/scaling'
+import { verticalScale } from '../utils/scaling'
 import {
   ACTIVE_SCALE_MULTIPLIER,
   COIN_SPRING_CONFIG,

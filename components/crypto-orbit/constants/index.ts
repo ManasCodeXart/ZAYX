@@ -1,6 +1,6 @@
 import * as Haptics from 'expo-haptics'
 
-import { verticalScale } from '../../utils/scaling'
+import { verticalScale } from '../utils/scaling'
 
 export const HOVER_HAPTIC_STYLE = Haptics.ImpactFeedbackStyle.Light
 export const SELECT_HAPTIC_STYLE = Haptics.ImpactFeedbackStyle.Medium

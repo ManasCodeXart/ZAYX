@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import { GestureDetector } from 'react-native-gesture-handler'
 import Animated, { useAnimatedStyle } from 'react-native-reanimated'
 
-import { verticalScale } from '../../utils/scaling'
+import { verticalScale } from '../utils/scaling'
 import {
   BUTTON_HEIGHT,
   BUTTON_RADIUS,
