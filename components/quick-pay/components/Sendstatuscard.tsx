@@ -18,8 +18,8 @@ const CROSSFADE_DURATION = 350;
 const SCALE_SPRING = { damping: 14, stiffness: 200, mass: 0.6 };
 
 const DEFAULT_SENDING_ICON: FlipIconSource = {
-  front: require('../assets/images/plan.png'),
-  back: require('../assets/images/plan2.png'),
+  front: require('../assets/images/plane.png'),
+  back: require('../assets/images/plane2.png'),
 };
 
 const DEFAULT_SENT_ICON: FlipIconSource = {
