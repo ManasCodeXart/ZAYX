@@ -26,7 +26,7 @@ import type { QuickPayCardProps, QuickPayStage } from '../constants/types';
 import AvatarCarousel from './Avatarcarousel';
 import SendStatusCard from './Sendstatuscard';
 
-const DEFAULT_BACKGROUND_SOURCE = require('../assets/Lottie/nxwmOJC8PS.json');
+const DEFAULT_BACKGROUND_SOURCE = require('../assets/lottie/wave.json');
 const CARD_HEIGHT = 470;
 const SPRING_CONFIG = { damping: 20, stiffness: 130, mass: 0.8 };
 const PILL_TRANSITION = LinearTransition.springify().damping(18).stiffness(180);
@@ -207,7 +207,7 @@ export default function QuickPayCard({
       <GestureDetector gesture={panGesture}>
         <Animated.View style={[styles.card, cardStyle]}>
           <LottieView
-            source={require('../assets/Lottie/nxwmOJC8PS.json')}
+            source={require('../assets/lottie/wave.json')}
             autoPlay
             loop
             resizeMode="cover"
