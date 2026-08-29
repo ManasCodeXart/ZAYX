@@ -20,8 +20,8 @@ import Animated, {
     withTiming,
 } from 'react-native-reanimated'
 
-import { verticalScale } from '@/constants/scaling'
-import { ScratchCardProps, ScratchStroke } from '@/constants/types'
+import { verticalScale } from '../constants/scaling'
+import { ScratchCardProps, ScratchStroke } from '../constants/types'
 import RevealContent from './RevealContent'
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window')

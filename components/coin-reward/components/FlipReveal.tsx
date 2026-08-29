@@ -1,7 +1,7 @@
 import { useCallback, useRef, useState } from 'react'
 import { StyleSheet, View } from 'react-native'
 
-import { CoinFace, FlipRevealProps } from '@/constants/types'
+import { CoinFace, FlipRevealProps } from '../constants/types'
 import CoinFlip from './CoinFlip'
 import ScratchCard, { SLIDE_EXIT_DURATION } from './ScratchCard'
 

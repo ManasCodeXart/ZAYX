@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 
-import { verticalScale } from '@/constants/scaling'
-import { RevealContentProps } from '@/constants/types'
+import { verticalScale } from '../constants/scaling'
+import { RevealContentProps } from '../constants/types'
 
 const RevealContent = ({ face }: RevealContentProps) => {
     return face === 'heads' ? <HeadsReveal /> : <TailsReveal />

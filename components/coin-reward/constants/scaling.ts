@@ -23,3 +23,4 @@ export const verticalScale = (size: number) =>
       (longDimension / guidelineBaseHeight) * (size as number)
     )
   );
+

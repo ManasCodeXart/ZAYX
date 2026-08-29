@@ -10,7 +10,7 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated'
 
-import { CoinFace, CoinFlipProps } from '@/constants/types'
+import { CoinFace, CoinFlipProps } from '../constants/types'
 import Coin, { COIN_SIZE } from '../components/Coin'
 
 const DRAG_SENSITIVITY_X   = 0.55

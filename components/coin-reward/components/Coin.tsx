@@ -5,8 +5,8 @@ import {
     View,
 } from 'react-native'
 
-import { verticalScale } from '@/constants/scaling'
-import { CoinFace, CoinProps } from '@/constants/types'
+import { verticalScale } from '../constants/scaling'
+import { CoinFace, CoinProps } from '../constants/types'
 
 export const COIN_SIZE = verticalScale(225)
 
