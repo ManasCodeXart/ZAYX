@@ -57,4 +57,4 @@ No package, no version to manage — the component is a plain file in your proje
 
 ## License
 
-Licensed under the [MIT License](https://claude.ai/chat/LICENSE).
+Licensed under the [MIT License](./LICENSE).
