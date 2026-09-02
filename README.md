@@ -1,6 +1,13 @@
 <div align="center"> 
 
-[ZAYX Hero](https://claude.ai/chat/assets/hero.gif)
+
+
+
+
+https://github.com/user-attachments/assets/b206add2-3e76-40f0-b477-397f4cb07656
+
+
+
 
 <!-- placeholder — drop the real hero gif at ./assets/hero.gif --> 
 
@@ -51,7 +58,7 @@ No package, no version to manage — the component is a plain file in your proje
 
 ## Built by
 
-[**ManasCodeXart**](https://github.com/ManasCodeXart) — designer, developer, mobile design engineer.
+[**ManasCodeXart**](https://github.com/ManasCodeXart) — trying to build something nice.
 
 ---
 
