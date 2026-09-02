@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/b206add2-3e76-40f0-b477-397f4cb07656
 
 <!-- placeholder — drop the real hero gif at ./assets/hero.gif --> 
 
-# ZAYX
+# <font size="10">ZAYX</font>
 
 **ZAYX is a niche-first React Native interaction library starting with fintech.**
 
@@ -19,22 +19,20 @@ https://github.com/user-attachments/assets/b206add2-3e76-40f0-b477-397f4cb07656
 
 </div> 
 
----
-
 ## Components
 
 | Component Folder What it does |                                                                          |                                                                                                                                   |
 | ----------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| **Card3D**                    | [`card-insight`](https://claude.ai/chat/components/card-insight)         | A 3D flip card with a Skia ripple effect on tap, dual-axis drag, and spending insights revealed on the back face.                 |
-| **CoinMorphList**             | [`coin-morph`](https://claude.ai/chat/components/coin-morph)             | A crypto asset list where tapping a coin morphs the row into a full detail view.                                                  |
-| **CoinFlip → ScratchCard**    | [`coin-reward`](https://claude.ai/chat/components/coin-reward)           | A gamified reward flow: flip a coin, scratch a card, reveal the prize — with confetti.                                            |
-| **CryptoPaySelector**         | [`crypto-orbit`](https://claude.ai/chat/components/crypto-orbit)         | Hold-to-reveal a staggered, spring-animated fan of crypto coin bubbles for quick asset selection.                                 |
-| **CurrencySwitcher**          | [`currency-switch`](https://claude.ai/chat/components/currency-switch)   | An animated send/receive card with swappable currencies, a custom keypad, and live exchange rates via the Frankfurter API.        |
-| **QuickActionsDrawer**        | [`fin-panel`](https://claude.ai/chat/components/fin-panel)               | A Samsung Edge Panel-inspired two-panel drawer surfacing quick actions and financial insights.                                    |
-| **FintechIsland**             | [`fintech-island`](https://claude.ai/chat/components/fintech-island)     | A Dynamic Island-style pill that morphs into an expanded tray, with Lottie animations for sending, adding a card, and saving.     |
-| **ReminderCreateSheet**       | [`payment-reminder`](https://claude.ai/chat/components/payment-reminder) | A bottom sheet for creating payment reminders — avatar carousel, date/tick pickers, amount keypad, and a draggable reminder pill. |
-| **GravitySavings**            | [`piggy-bank`](https://claude.ai/chat/components/piggy-bank)             | A piggy bank savings UI with animated falling coins and a rolling digit counter that ticks up on each deposit.                    |
-| **QuickPay**                  | [`quick-pay`](https://claude.ai/chat/components/quick-pay)               | A send-money bottom sheet with an avatar carousel, snap slider, and animated send status card.                                    |
+| **Card3D**                    | [`expo-card-insight`](https://github.com/ManasCodeXart/expo-card-insight)         | A 3D flip card with a Skia ripple effect on tap, dual-axis drag, and spending insights revealed on the back face.                 |
+| **CoinMorphList**             | [`expo-coin-morph`](https://github.com/ManasCodeXart/expo-coin-morph)             | A crypto asset list where tapping a coin morphs the row into a full detail view.                                                  |
+| **CoinFlip → ScratchCard**    | [`expo-coin-reward`](https://github.com/ManasCodeXart/expo-coin-reward)           | A gamified reward flow: flip a coin, scratch a card, reveal the prize — with confetti.                                            |
+| **CryptoPaySelector**         | [`expo-crypto-orbit`](https://github.com/ManasCodeXart/expo-crypto-orbit)         | Hold-to-reveal a staggered, spring-animated fan of crypto coin bubbles for quick asset selection.                                 |
+| **CurrencySwitcher**          | [`expo-currency-switch`](https://github.com/ManasCodeXart/expo-currency-switch)   | An animated send/receive card with swappable currencies, a custom keypad, and live exchange rates via the Frankfurter API.        |
+| **QuickActionsDrawer**        | [`expo-finpanel`](https://github.com/ManasCodeXart/expo-finpanel)               | A Samsung Edge Panel-inspired two-panel drawer surfacing quick actions and financial insights.                                    |
+| **FintechIsland**             | [`expo-fintech-island`](https://github.com/ManasCodeXart/expo-fintech-island)     | A Dynamic Island-style pill that morphs into an expanded tray, with Lottie animations for sending, adding a card, and saving.     |
+| **ReminderCreateSheet**       | [`expo-payment-reminder`](https://github.com/ManasCodeXart/expo-payment-reminder) | A bottom sheet for creating payment reminders — avatar carousel, date/tick pickers, amount keypad, and a draggable reminder pill. |
+| **GravitySavings**            | [`expo-piggy-bank`](https://github.com/ManasCodeXart/expo-piggy-bank)             | A piggy bank savings UI with animated falling coins and a rolling digit counter that ticks up on each deposit.                    |
+| **QuickPay**                  | [`expo-quick-pay`](https://github.com/ManasCodeXart/expo-quick-pay)               | A send-money bottom sheet with an avatar carousel, snap slider, and animated send status card.                                    |
 
 ---
 
