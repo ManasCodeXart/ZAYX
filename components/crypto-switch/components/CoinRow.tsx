@@ -1,5 +1,6 @@
+import { Image } from "expo-image";
 import { memo, useMemo, useState } from "react";
-import { Image, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import Animated, { type SharedValue } from "react-native-reanimated";
 import { verticalScale } from "../constants/scaling";
 import type { Coin } from "../constants/types";
@@ -46,7 +47,7 @@ function CoinRowComponent({ coin, isSelected, onPress, themeProgress }: CoinRowP
         <Image
           source={iconSource}
           style={styles.icon}
-          resizeMode="cover"
+          contentFit="cover"
           onError={() => setFailedSymbol(coin.symbol)}
         />
       )}

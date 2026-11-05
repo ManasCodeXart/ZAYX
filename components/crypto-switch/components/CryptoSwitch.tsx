@@ -1,6 +1,6 @@
+import { Image } from "expo-image";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
-  Image,
   Keyboard,
   StyleSheet,
   TextInput,
@@ -32,7 +32,6 @@ import { useQuote } from "../hooks/useQuote";
 import { formatAmount, MAX_AMOUNT_INPUT_LENGTH, parseAmount, sanitizeAmountInput } from "../utils/amount";
 import { getCoinIconUrl } from "../utils/coinIcon";
 import { findCoinBySymbol } from "../utils/coins";
-import { runWhenIdle } from "../utils/idle";
 
 import { CoinPill } from "./CoinPill";
 import { ThemedSwapIcon } from "./SwapIcon";
@@ -162,7 +161,7 @@ export function CryptoSwitch({
 
   const openPicker = useCallback((target: PickerTarget) => {
     Keyboard.dismiss();
-    runWhenIdle(() => {
+    requestIdleCallback(() => {
       const openWithBounds = (bounds: CardBounds) => {
         setPickerBounds(bounds);
         setPickerTarget(target);
@@ -555,11 +554,7 @@ const styles = StyleSheet.create({
     borderRadius: verticalScale(19),
     alignItems: "center",
     justifyContent: "center",
-    shadowColor: "#000000",
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.08,
-    shadowRadius: 16,
-    elevation: 4,
+    boxShadow: "0 4px 16px rgba(0, 0, 0, 0.08)",
   },
   stackContainer: {},
   cardBox: {
@@ -572,11 +567,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     zIndex: 2,
     marginBottom: verticalScale(8),
-    shadowColor: "#000000",
-    shadowOffset: { width: 0, height: 12 },
-    shadowOpacity: 0.08,
-    shadowRadius: 16,
-    elevation: 8,
+    boxShadow: "0 12px 16px rgba(0, 0, 0, 0.08)",
   },
   receiveCard: {
     zIndex: 1,
@@ -677,11 +668,7 @@ const styles = StyleSheet.create({
     borderColor: "#F5F5F5",
     alignItems: "center",
     justifyContent: "center",
-    shadowColor: "#000000",
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.08,
-    shadowRadius: 16,
-    elevation: 4,
+    boxShadow: "0 4px 16px rgba(0, 0, 0, 0.08)",
   },
   sendButton: {
     backgroundColor: "#111111",

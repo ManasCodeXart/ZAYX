@@ -297,11 +297,7 @@ const styles = StyleSheet.create({
     borderColor: "#F5F5F5",
     alignItems: "center",
     justifyContent: "center",
-    shadowColor: "#000000",
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.08,
-    shadowRadius: 16,
-    elevation: 4,
+    boxShadow: "0 4px 16px rgba(0, 0, 0, 0.08)",
   },
   overlay: {
     position: "absolute",
