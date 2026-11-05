@@ -1,6 +1,5 @@
-import { Image } from "expo-image";
 import { memo, useMemo, useState } from "react";
-import { StyleSheet, TouchableOpacity, View } from "react-native";
+import { Image, StyleSheet, TouchableOpacity, View } from "react-native";
 import Animated, {
   Easing,
   FadeIn,
@@ -59,7 +58,7 @@ export const CoinPill = memo(function CoinPill({
           <Image
             source={iconSource}
             style={styles.coinIcon}
-            contentFit="cover"
+            resizeMode="cover"
             onError={() => setFailedSymbol(coin.symbol)}
           />
         )}
